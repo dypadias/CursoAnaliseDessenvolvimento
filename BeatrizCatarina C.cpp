@@ -1,8 +1,8 @@
 /*Beatriz tem 11 anos e mede 1,40 metros de altura, 
-e cresce em mÈdia 2,1 centÌmetros ao ano. 
-Sua irm„ Catarina, aos 14 anos, tem 1,45 metros de altura, 
-e cresce em mÈdia 1,1 centÌmetros ao ano. 
-Elabore um programa que conte quantos anos ser„o necess·rios 
+e cresce em m√©dia 2,1 cent√≠metros ao ano. 
+Sua irm√£ Catarina, aos 14 anos, tem 1,45 metros de altura, 
+e cresce em m√©dia 1,1 cent√≠metros ao ano. 
+Elabore um programa que conte quantos anos ser√£o necess√°rios 
 para que a altura de Beatriz ultrapasse a altura de Catarina.*/
 #include <stdlib.h>
 #include <stdio.h>
@@ -20,5 +20,5 @@ int main(){
 		C++;
 		printf("** ANO: %d **\n\nBeatriz:\n\tidade: %d\n\taltura: %.2f\n\nCatarina:\n\tidade: %d\n\taltura: %.2f\n\n", B-11, B, beatriz, C, catarina);
 	}
-	printf("A altura de Batriz ir· ultrapassar a de Catarina apÛs %d anos.\n", B-11);
+	printf("A altura de Batriz ir√° ultrapassar a de Catarina ap√≥s %d anos.\n", B-11);
 }
